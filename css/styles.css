@@ -1,4 +1,41 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
 * {
-  font-family: sans-serif;
-  color: red
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 10pt;
+}
+
+nav {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+nav a {
+  font-size: 2em;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 20%;
+  line-height: 50px;
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  float: left;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+
+section {
+  font-size: 1.5em;
+  width: 100%;
+  margin: 0;
+  height: calc(100% - 50px);
 }
