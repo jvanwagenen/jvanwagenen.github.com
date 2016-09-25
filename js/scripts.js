@@ -8,24 +8,28 @@ function changeWords(){
 
   var moreWords = [
     ['material', 'ity', 'ità'],
-    ['possibil', 'ity', 'ità', 'idad'],
+    ['possibil', 'ità', 'ity', 'idad'],
     ['celebr', 'ity', 'ità'],
-    ['sublim', 'ity', 'ità', 'idad'],
+    ['sublim', 'ità', 'ity', 'idad'],
     ['normal', 'ity', 'ità'],
     ['conform', 'ity', 'ità'],
-    ['visibil', 'ity', 'ità'],
+    ['visibil', 'ità', 'ity'],
     ['plural', 'ity', 'ità', 'idad'],
     ['individual', 'ity', 'ità'],
-    ['curios', 'ity', 'ità', 'idad'],
+    ['curios', 'ità', 'ity', 'idad'],
     ['modern', 'ity', 'ità'],
     ['fractal', 'idad', 'ity'],
-    ['infin', 'ity', 'ità', 'idad'],
+    ['infin', 'ità', 'ity', 'idad'],
     ['real','ism', 'ismo'],
     ['modern','ism', 'ismo'],
-    ['postmodern','ism', 'ismo'],
+    ['postmodern','ismo', 'ism'],
     ['capital','ism', 'ismo'],
     ['social','ism', 'ismo'],
-    ['anarch','ism', 'ismo']
+    ['anarch','ismo', 'ism'],
+    ['democra', 'zia', 'cy'],
+    ['civiliz', 'ation', 'zazione'],
+    ['na', 'tion', 'zione']
+    
   ];
 
   var clock = document.getElementById('clock');
