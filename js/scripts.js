@@ -1,7 +1,7 @@
 function changeWords(){
   var firstWords = [
     ['modern'],
-    ['mytho','logy'],
+    ['mythol','ogy'],
     ['mitol','ogia'],
     ['modern','a']
   ];
