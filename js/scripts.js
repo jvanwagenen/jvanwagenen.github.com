@@ -4,7 +4,9 @@ function changeWords(){
     ['mythol','ogy'],
     ['mitol','ogia'],
     ['modern','a'],
-    ['fractal', 'ità', 'idad', 'ity']
+    ['fractal','ità'],
+    ['fractal','ity'],
+    ['fractal','idad']
   ];
 
   var moreWords = [
