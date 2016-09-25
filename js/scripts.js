@@ -3,7 +3,8 @@ function changeWords(){
     ['modern'],
     ['mythol','ogy'],
     ['mitol','ogia'],
-    ['modern','a']
+    ['modern','a'],
+    ['fractal', 'ità', 'idad', 'ity']
   ];
 
   var moreWords = [
@@ -18,7 +19,6 @@ function changeWords(){
     ['individual', 'ity', 'ità'],
     ['curios', 'ità', 'ity', 'idad'],
     ['modern', 'ity', 'ità'],
-    ['fractal', 'idad', 'ity'],
     ['infin', 'ità', 'ity', 'idad'],
     ['real','ism', 'ismo'],
     ['modern','ism', 'ismo'],
@@ -29,7 +29,7 @@ function changeWords(){
     ['democra', 'zia', 'cy'],
     ['civiliz', 'ation', 'zazione'],
     ['na', 'tion', 'zione']
-    
+
   ];
 
   var clock = document.getElementById('clock');
