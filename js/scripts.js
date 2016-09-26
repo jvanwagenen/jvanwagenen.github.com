@@ -10,10 +10,10 @@ function changeWords(){
   ];
 
   var moreWords = [
-    ['material', 'ity', 'ità'],
-    ['possibil', 'ità', 'ity', 'idad'],
+    ['material', 'ità', 'ity'],
+    ['possibil', 'ità', 'idad', 'ity'],
     ['celebr', 'ity', 'ità'],
-    ['sublim', 'ità', 'ity', 'idad'],
+    ['sublim', 'ità', 'idad', 'ity'],
     ['normal', 'ity', 'ità'],
     ['conform', 'ity', 'ità'],
     ['visibil', 'ità', 'ity'],
@@ -22,15 +22,15 @@ function changeWords(){
     ['curios', 'ità', 'ity', 'idad'],
     ['modern', 'ity', 'ità'],
     ['infin', 'ità', 'ity', 'idad'],
-    ['real','ism', 'ismo'],
+    ['real','ismo', 'ism'],
     ['modern','ism', 'ismo'],
     ['postmodern','ismo', 'ism'],
     ['capital','ism', 'ismo'],
-    ['social','ism', 'ismo'],
+    ['social','ismo', 'ism'],
     ['anarch','ismo', 'ism'],
     ['democra', 'zia', 'cy'],
     ['civiliz', 'ation', 'zazione'],
-    ['na', 'tion', 'zione']
+    ['na', 'zione', 'tion']
 
   ];
 
