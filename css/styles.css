@@ -80,7 +80,7 @@ div#clock #right {
 }
 
 footer {
-  position: absolute;
+  position: absolute;;
   left: calc(65% + 0.5em);
   bottom: 30px;
   color: rgb(223, 177, 57);
