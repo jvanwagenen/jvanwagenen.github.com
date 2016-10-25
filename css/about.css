@@ -21,6 +21,12 @@ section#about p {
   vertical-align: middle;
 }
 
+section#about a:link {
+  color: rgb(223, 177, 57);
+  text-decoration: none;
+  }
+}
+
 @media screen and (max-width: 960px) {
   section#about .picture-caption {
     top: calc(50% - 167px);
@@ -36,7 +42,9 @@ section#about p {
     padding: 10px;
     font-size: 0.6em;
   }
+
 }
+
 
 @media screen and (min-width: 961px) and (max-width: 1280px) {
   section#about .picture-caption {
