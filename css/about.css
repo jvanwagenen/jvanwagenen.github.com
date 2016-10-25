@@ -14,10 +14,12 @@ section#about a:link {
   color: rgb(223, 177, 57);
   text-decoration: none;
   }
+
 section#about a:visited {
   color: rgb(223, 177, 57);
   text-decoration: none;
   }
+
 section#about p {
   display: table-cell;
   text-align: justify;
