@@ -10,6 +10,10 @@ section#about img {
   width: 800px;
 }
 
+section#about a:link {
+  color: rgb(223, 177, 57);
+  text-decoration: none;
+  }
 section#about p {
   display: table-cell;
   text-align: justify;
@@ -21,10 +25,6 @@ section#about p {
   vertical-align: middle;
 }
 
-section#about a:link {
-  color: rgb(223, 177, 57);
-  text-decoration: none;
-  }
 }
 
 @media screen and (max-width: 960px) {
