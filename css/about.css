@@ -5,6 +5,7 @@ section#about .picture-caption {
   left: calc(50% - 650px);
 }
 
+
 section#about img {
   float: left;
   width: 800px;
@@ -31,7 +32,6 @@ section#about p {
   vertical-align: middle;
 }
 
-}
 
 @media screen and (max-width: 960px) {
   section#about .picture-caption {
