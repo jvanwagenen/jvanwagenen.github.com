@@ -115,8 +115,12 @@ p.contact {
     transform: translate(-50%, -50%);
     }
 
+    p.writing:last-child {
+      margin-bottom: 3em;
+    }
+
     p.writing a:link {
-      color: black;
+      color: gray;
       text-decoration: none;
   }
 
