@@ -120,12 +120,12 @@ p.contact {
     }
 
     p.writing a:link {
-      color: gray;
+      color: rgb(128, 128, 128);
       text-decoration: none;
   }
 
     p.writing a:visited {
-      color: gray;
+      color: rgb(128, 128, 128);
       text-decoration: none;
     }
 
