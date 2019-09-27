@@ -31,6 +31,7 @@ function changeWords(){
     ['democra', 'zia', 'cy'],
     ['civiliz', 'ation', 'zazione'],
     ['na', 'zione', 'tion']
+    ['ecofem', 'inism', 'minismo']
 
   ];
 
