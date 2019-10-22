@@ -109,7 +109,7 @@ p.contact {
   p.writing {
     margin: 20;
     position: inherit;
-    top: 20%;
+    top: 10%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -0%);
