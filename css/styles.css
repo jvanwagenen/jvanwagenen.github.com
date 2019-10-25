@@ -4,6 +4,15 @@
   font-family: 'Lato', sans-serif;
 }
 
+.Site {
+  display: flex;
+  min-height: 450px;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
 html, body {
   padding: 0px;
   margin: 0px;
@@ -54,7 +63,7 @@ section {
 
 div#clock {
   margin: 0;
-  padding: 30px 0px;
+  padding: 17px 0px;
   height: 100%;
   width: 100%;
   float: left;
@@ -82,7 +91,7 @@ div#clock #right {
 footer {
   position: absolute;;
   left: calc(65% + 0.5em);
-  bottom: 30px;
+  bottom: 15px;
   color: rgb(223, 177, 57);
   text-transform: uppercase;
   letter-spacing: 2px;
