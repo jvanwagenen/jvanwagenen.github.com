@@ -4,21 +4,13 @@
   font-family: 'Lato', sans-serif;
 }
 
-.Site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.Site-content {
-  flex: 1;
-}
 html, body {
   padding: 0px;
   margin: 0px;
   font-size: 10pt;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
   float: left;
   min-width: 960px;
   min-height: 600px;
@@ -89,7 +81,8 @@ div#clock #right {
 }
 
 footer {
-  position: absolute;;
+  position: absolute;
+  box-sizing: inherit;
   left: calc(65% + 0.5em);
   bottom: 15px;
   color: rgb(223, 177, 57);
@@ -110,7 +103,7 @@ footer a:hover {
 p.contact {
   margin: 0;
   position: absolute;
-  top: 50%;
+  bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
