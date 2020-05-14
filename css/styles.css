@@ -109,7 +109,7 @@ footer a:hover {
 p.contact {
     margin: 0;
     position: absolute;
-    bottom: 0%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
