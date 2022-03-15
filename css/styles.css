@@ -30,7 +30,7 @@ nav {
     height: 50px;
 }
 
-nav a {
+nav>a, nav>span.options {
     font-size: 1.7em;
     text-transform: uppercase;
     display: inline-block;
@@ -39,6 +39,31 @@ nav a {
     color: black;
     text-decoration: none;
     margin: 0;
+}
+
+nav>span.options  {
+  position: relative;
+}
+
+nav>span.options>div {
+  position: absolute;
+  display: list-item;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+nav>span.options>div a{
+  font-size: 1.25rem;
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+  color: black;
+}
+
+
+nav>span.options:hover>div{
+  display: flex;
 }
 
 nav a.active {
