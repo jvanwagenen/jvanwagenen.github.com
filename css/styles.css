@@ -30,7 +30,8 @@ nav {
     height: 50px;
 }
 
-nav>a, nav>span.options {
+nav > a,
+nav > span.options {
     font-size: 1.7em;
     text-transform: uppercase;
     display: inline-block;
@@ -41,29 +42,35 @@ nav>a, nav>span.options {
     margin: 0;
 }
 
-nav>span.options  {
-  position: relative;
+nav > span.options {
+    position: relative;
 }
 
-nav>span.options>div {
-  position: absolute;
-  display: list-item;
-  top: 0;
-  right: 0;
-  display: none;
+nav > span.options > .dropdown {
+    position: absolute;
+    left: 50%;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    z-index: 1000;
 }
 
-nav>span.options>div a{
-  font-size: 1.25rem;
-  display: flex;
-  text-decoration: none;
-  margin: 0;
-  color: black;
+nav > span.options > .dropdown li {
+    background-color: white;
+    padding: 5px;
 }
 
+nav > span.options > .dropdown a {
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin: 0;
+    color: black;
+}
 
-nav>span.options:hover>div{
-  display: flex;
+nav > span.options:hover > .dropdown {
+    display: block;
 }
 
 nav a.active {
